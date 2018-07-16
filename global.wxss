@@ -24,6 +24,14 @@ p {
   text-align: center;
 }
 
+/*display*/
+.display-in-block {
+  display: inline-block;
+}
+.display-block {
+  display: block;
+}
+
 /*color*/
 .black {
   color: #000;
@@ -32,10 +40,10 @@ p {
   background-color: #000;
 }
 .red {
-  color: rgb(222,42,43);
+  color: #df2a2b;
 }
 .red-b {
-  background-color: rgb(222,42,43);
+  background-color: #df2a2b;
 }
 .red-b-ok {
   background-color: #666464;
@@ -416,6 +424,9 @@ p {
 .width-33per {
   width: 33%;
 }
+.width-34per {
+  width: 34%;
+}
 .width-40per {
   width: 40%;
 }
@@ -430,6 +441,9 @@ p {
 }
 .width-65per {
   width: 65%;
+}
+.width-66per {
+  width: 66%;
 }
 .width-67per {
   width: 67%;
@@ -448,6 +462,9 @@ p {
 }
 
 /*height*/
+.height-24 {
+  height: 24px;
+}
 .height-25 {
   height: 25px;
 }
@@ -456,6 +473,9 @@ p {
 }
 .height-40 {
   height: 40px;
+}
+.height-42 {
+  height: 42px;
 }
 .height-50 {
   height: 50px;
@@ -550,6 +570,10 @@ p {
 .per-line-40 {
   height: 40px;
   line-height: 40px;
+}
+.per-line-42 {
+  height: 42px;
+  line-height: 42px;
 }
 .per-line-50 {
   height: 50px;
