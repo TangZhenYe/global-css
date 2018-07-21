@@ -1,10 +1,10 @@
 /*!
- * global v2.24.3
+ * global.css v2.24.3
  * Copyright 2018-2022 tangzhenye, Inc.
  * Licensed under MIT (https://github.com/tangzhenye/global-css)
  */
 
-p {
+ p {
   margin: 0;
   padding: 0;
 }
@@ -100,6 +100,9 @@ p {
 .pad-lef-15 {
   padding-left: 15px;
 }
+.pad-lef-16 {
+  padding-left: 16px;
+}
 .pad-lef-20 {
   padding-left: 20px;
 }
@@ -160,6 +163,9 @@ p {
 .pad-rig-15 {
   padding-right: 15px;
 }
+.pad-rig-16 {
+  padding-right: 16px;
+}
 .pad-rig-20 {
   padding-right: 20px;
 }
@@ -185,6 +191,9 @@ p {
 .mar-lef-15 {
   margin-left: 15px;
 }
+.mar-lef-16 {
+  margin-left: 16px;
+}
 .mar-lef-20 {
   margin-left: 20px;
 }
@@ -199,6 +208,9 @@ p {
 }
 .mar-lef-50 {
   margin-left: 50px;
+}
+.mar-lef-2per {
+  margin-left: 2%;
 }
 
 /*mar-rig*/
@@ -225,6 +237,9 @@ p {
 }
 .mar-rig-50 {
   margin-right: 50px;
+}
+.mar-rig-5per {
+  margin-right: 5%;
 }
 
 /*mar-top*/
@@ -260,6 +275,15 @@ p {
 }
 .mar-top-40 {
   margin-top: 40px;
+}
+.mar-top--1 {
+  margin-top: -1px;
+}
+.mar-top--5 {
+  margin-top: -5px;
+}
+.mar-top--10 {
+  margin-top: -10px;
 }
 
 /*mar-bot*/
@@ -415,6 +439,9 @@ p {
 .width-14per {
   width: 14%;
 }
+.width-20per {
+  width: 20%;
+}
 .width-25per {
   width: 25%;
 }
@@ -462,6 +489,9 @@ p {
 }
 
 /*height*/
+.height-10 {
+  height: 10px;
+}
 .height-24 {
   height: 24px;
 }
@@ -493,12 +523,45 @@ p {
   height: 170px;
 }
 
+/*per-line*/
+.per-line-20 {
+  height: 20px;
+  line-height: 20px;
+}
+.per-line-30 {
+  height: 30px;
+  line-height: 30px;
+}
+.per-line-38 {
+  height: 38px;
+  line-height: 38px;
+}
+.per-line-40 {
+  height: 40px;
+  line-height: 40px;
+}
+.per-line-42 {
+  height: 42px;
+  line-height: 42px;
+}
+.per-line-50 {
+  height: 50px;
+  line-height: 50px;
+}
+.per-line-70 {
+  height: 70px;
+  line-height: 70px;
+}
+
 /*border*/
 .border-1 {
   border: 1px solid #ccc;
 }
 .border-bottom-1 {
   border-bottom: 1px solid #ccc;
+}
+.border-bottom-1-opacity {
+  border-bottom: 1px solid #f3f2f2;
 }
 .border-right-1 {
   border-right: 1px solid #ccc;
@@ -508,6 +571,17 @@ p {
 }
 .border-top-1 {
   border-top: 1px solid #ccc;
+}
+
+/*border-radius*/
+.border-rad-5 {
+  border-radius: 5px;
+}
+.border-rad-10 {
+  border-radius: 10px;
+}
+.border-rad-50per {
+  border-radius: 50%;
 }
 
 /*hideBox*/
@@ -554,43 +628,8 @@ p {
   position: fixed;
 }
 
-/*per-line*/
-.per-line-20 {
-  height: 20px;
-  line-height: 20px;
-}
-.per-line-30 {
-  height: 30px;
-  line-height: 30px;
-}
-.per-line-38 {
-  height: 38px;
-  line-height: 38px;
-}
-.per-line-40 {
-  height: 40px;
-  line-height: 40px;
-}
-.per-line-42 {
-  height: 42px;
-  line-height: 42px;
-}
-.per-line-50 {
-  height: 50px;
-  line-height: 50px;
-}
-.per-line-70 {
-  height: 70px;
-  line-height: 70px;
-}
-
-/*border-radius*/
-.border-rad-5 {
-  border-radius: 5px;
-}
-.border-rad-10 {
-  border-radius: 10px;
-}
-.border-rad-50per {
-  border-radius: 50%;
+/*商品详情下面的图片*/
+.goods-des > img {
+  width: 100%;
+  vertical-align: bottom;
 }
