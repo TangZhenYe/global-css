@@ -81,6 +81,18 @@
 .gray-a4a{
   color: #a4a4a4;
 }
+.yellow {
+  color: rgb(250,152,0);
+}
+.yellow-b {
+  background-color: rgb(250,152,0);
+}
+.yellow-opacity {
+  color: rgb(254, 240, 221);
+}
+.yellow-b-opacity {
+  background-color: rgb(254, 240, 221);
+}
 
 /*padding*/
 .pad-10 {
@@ -212,6 +224,9 @@
 .mar-lef-2per {
   margin-left: 2%;
 }
+.mar-lef-5per {
+  margin-left: 5%;
+}
 
 /*mar-rig*/
 .mar-rig-5 {
@@ -240,6 +255,9 @@
 }
 .mar-rig-5per {
   margin-right: 5%;
+}
+.mar-rig-2per {
+  margin-right: 2%;
 }
 
 /*mar-top*/
@@ -433,6 +451,9 @@
 .width-2per {
   width: 2%;
 }
+.width-10per {
+  width: 10%;
+}
 .width-12per {
   width: 12%;
 }
@@ -584,6 +605,11 @@
   border-radius: 50%;
 }
 
+/*z-index*/
+.z-index-9999 {
+  z-index: 9999;
+}
+
 /*hideBox*/
 .hide-box {
   position: fixed;
@@ -626,10 +652,4 @@
 }
 .pos-fixed {
   position: fixed;
-}
-
-/*商品详情下面的图片*/
-.goods-des > img {
-  width: 100%;
-  vertical-align: bottom;
 }
